@@ -1,0 +1,227 @@
+body{
+	background-color: hsl(0, 0%, 98%);
+	color: #5E6269;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/** TOP CONTAINER CSS **/
+
+.head-info-wrapper{
+	text-align: center;
+}
+.head-info-wrapper h3{
+	font-weight: 400;
+}
+.heading-wrapper{
+	height: 20rem;
+	margin: 3rem auto;
+	width: 40%;
+}
+.head-intro-container{
+	height: auto;
+	padding: 1px;
+	width: 100%;
+}
+.light-text{
+	font-weight: 200;
+}
+.main-head-wrapper{
+	font-size: 1.4em;
+	padding: 1px;
+	text-align: center;
+}
+.bold-text{
+	font-weight: 600;
+}
+
+/** BOTTOM CONTAINER CSS **/
+
+.all-cards{
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: slategray 3px 7px 15px;
+	height: 14rem;
+	padding: 0 2rem;
+	width: 20em;
+}
+.calc-card{
+	border-top: 5px solid hsl(212, 86%, 64%);
+}
+.card-coloumn{
+	display: inline-block;
+	height: 35rem;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+	vertical-align: top;
+	width: 20%;
+}
+.cards-container{
+	height: auto;
+	text-align: center;
+	width: 100%;
+}
+.card-content{
+	height: 8rem;
+	padding: 1px;
+	text-align: left;
+}
+.card-content p{
+	color: darkgrey;
+}
+.card-image{
+	text-align: right;
+}
+.karma-card{
+	border-top: 5px solid hsl(34, 97%, 64%);
+}
+.mid-cards{
+	margin: 2rem 0;
+}
+.side-card{
+	margin: 10rem 0;
+}
+.sup-card{
+	border-top: 5px solid hsl(180, 62%, 55%);
+}
+.teamb-card{
+	border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+
+/** MEDIA QUERIES **/
+
+@media(max-width: 1849px) and (min-width: 1130px){
+	.card-coloumn{
+		display: table-cell;
+	}
+}
+@media(max-width: 1129px) and (min-width: 1068px){
+	.all-cards{
+		margin: 5px 80px !important;
+	}
+	.card-coloumn{
+		display: block;
+		height: 15rem;
+		width: 100%;
+	}
+	.mid-cards{
+		margin: 0;
+		display: inline-block;
+	}
+	.side-card{
+		margin: 0;
+	}
+}
+@media(max-width: 1067px) and (min-width: 968px){
+	.all-cards{
+		margin: 5px 55px !important;
+	}
+	.card-coloumn{
+		display: block;
+		height: 15rem;
+		width: 100%;
+	}
+	.mid-cards{
+		margin: 0;
+		display: inline-block;
+	}
+	.side-card{
+		margin: 0;
+	}
+}
+@media(max-width: 967px) and (min-width: 868px){
+	.all-cards{
+		margin: 5px 30px !important;
+	}
+	.card-coloumn{
+		display: block;
+		height: 15rem;
+		width: 100%;
+	}
+	.mid-cards{
+		margin: 0;
+		display: inline-block;
+	}
+	.side-card{
+		margin: 0;
+	}
+}
+@media(max-width: 867px) and (min-width: 768px){
+	.all-cards{
+		margin: 5px 5px !important;
+	}
+	.card-coloumn{
+		display: block;
+		height: 15rem;
+		width: 100%;
+	}
+	.mid-cards{
+		margin: 0;
+		display: inline-block;
+	}
+	.side-card{
+		margin: 0;
+	}
+}
+@media(max-width: 767px) and (min-width: 385px){
+	.all-cards{
+		margin-top: 10px !important;
+	}
+	.card-coloumn{
+		display: block;
+		height: 15rem;
+		width: 100%;
+	}
+	.mid-cards{
+		margin: 0;
+		display: block;
+	}
+	.mid-col{
+		height: 30rem;
+	}
+	.side-card{
+		margin: 0;
+	}
+}
+@media(max-width: 384px){
+	.all-cards{
+		margin-top: 10px !important;
+		width: 15em;
+	}
+	.card-coloumn{
+		display: block;
+		height: 15rem;
+		width: 100%;
+	}
+	.mid-cards{
+		margin: 0;
+		display: block;
+	}
+	.mid-col{
+		height: 30rem;
+	}
+	.side-card{
+		margin: 0;
+	}
+}
+@media(max-width: 881px) and (min-width: 643px){
+	.head-intro-container{
+		height: 30rem;
+	}
+}
+@media(max-width: 642px) and (min-width: 501px){
+	.head-intro-container{
+		height: 35rem;
+	}
+}
+@media(max-width: 500px) and (min-width: 383px){
+	.head-intro-container{
+		height: 40rem;
+	}
+}
+@media(max-width: 382px) and (min-width: 300px){
+	.head-intro-container{
+		height: 43rem;
+	}
+}
